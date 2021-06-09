@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="120">
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="Input Item"
+        android:textSize="30sp"
+        android:background="@drawable/white_grey_border_bottom"
+        android:id="@+id/input_btn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="View Item"
+        android:textSize="30sp"
+        android:background="@drawable/white_grey_border_bottom"
+        android:id="@+id/view_btn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="Modify Item Price"
+        android:textSize="30sp"
+        android:background="@drawable/white_grey_border_bottom"
+        android:id="@+id/modify_item_price_btn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="Modify Item Quantity"
+        android:textSize="30sp"
+        android:background="@drawable/white_grey_border_bottom"
+        android:id="@+id/modify_item_qty_btn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="Remove Item"
+        android:textSize="30sp"
+        android:background="@drawable/white_grey_border_bottom"
+        android:id="@+id/remove_item_btn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="Display Author Info"
+        android:textSize="30sp"
+        android:background="@drawable/white_grey_border_bottom"
+        android:id="@+id/display_author_btn"/>
+
+</LinearLayout>
